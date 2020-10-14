@@ -416,6 +416,7 @@
   },
   {
     "id": "thong",
+	"looks_like": "panties",
     "type": "ARMOR",
     "name": { "str": "thong" },
     "description": "Women's underwear that covers a little less than normal in exchange for stares.",
@@ -426,13 +427,14 @@
     "symbol": "[",
     "color": "white",
     "covers": [ "leg_l", "leg_r" ],
-    "coverage": 12,
+    "coverage": 10,
     "warmth": 5,
     "material_thickness": 1,
     "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ]
   },
   {
     "id": "dress_skirt",
+	"looks_like": "skirt",
     "type": "ARMOR",
     "name": { "str": "dress skirt" },
     "description": "A short yet professional looking cotton skirt.  Somewhat easy to move in, but has no pockets.",
@@ -450,10 +452,29 @@
     "flags": [ "VARSIZE", "FANCY" ]
   },
   {
+    "id": "miniskirt",
+	"looks_like": "skirt",
+    "type": "ARMOR",
+    "name": { "str": "miniskirt" },
+    "description": "A skirt that is on the short side.  Easy to move in, but doesn't have any pockets.",
+    "weight": "37 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "pink",
+    "covers": [ "leg_l", "leg_r" ],
+    "coverage": 30,
+    "warmth": 2,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE", "FANCY" ]
+  },  
+  {
     "id": "microskirt",
+	"looks_like": "skirt",
     "type": "ARMOR",
     "name": { "str": "microskirt" },
-    "description": "A skirt that is on the short side.  No pockets but it is comfortable to wear.",
+    "description": "A skirt that is on the even shorter side.  No pockets but it is comfortable to wear.",
     "weight": "11 g",
     "volume": "250 ml",
     "price": 3000,
@@ -461,7 +482,7 @@
     "symbol": "[",
     "color": "pink",
     "covers": [ "leg_l", "leg_r" ],
-    "coverage": 7,
+    "coverage": 15,
     "material_thickness": 1,
     "flags": [ "VARSIZE", "FANCY" ]
   }

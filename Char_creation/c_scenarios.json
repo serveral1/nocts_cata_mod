@@ -125,20 +125,20 @@
     "copy-from": "alone",
     "type": "scenario",
     "ident": "alone",
-    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ]
+    "traits": [ "MARTIAL_ARTS_BIOJUTSU" ]
   },
   {
     "copy-from": "summer_advanced_start",
     "type": "scenario",
     "ident": "summer_advanced_start",
-    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ],
+    "traits": [ "MARTIAL_ARTS_BIOJUTSU" ],
     "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
   },
   {
     "copy-from": "ambushed",
     "type": "scenario",
     "ident": "ambushed",
-    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ],
+    "traits": [ "MARTIAL_ARTS_BIOJUTSU" ],
     "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
   },
   {

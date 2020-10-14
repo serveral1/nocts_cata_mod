@@ -208,7 +208,7 @@
     "time": "140 m",
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
-    "using": [ [ "c_metal_molding_standard", 14 ], [ "steel_standard", 14 ], [ "forging_standard", 56 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 8 ], [ "forging_standard", 35 ] ],
     "tools": [ [ [ "primitive_shovel", -1 ] ] ]
   },
   {
@@ -292,8 +292,7 @@
     "components": [
       [ [ "sheet_metal", 1 ] ],
       [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ],
-      [ [ "spring", 2 ] ],
-      [ [ "wire", 1 ] ],
+      [ [ "wire", 3 ] ],
       [ [ "nail", 10 ] ]
     ]
   },
@@ -603,7 +602,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
       [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
     ],
-    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
     "result": "surv_762_mag",
@@ -626,7 +625,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
       [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
     ],
-    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
     "result": "surv_762R_mag",
@@ -649,7 +648,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
       [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
     ],
-    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
     "result": "surv_308_mag",
@@ -672,7 +671,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
       [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
     ],
-    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
     "result": "surv_12_mag",
@@ -695,7 +694,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
       [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
     ],
-    "components": [ [ [ "sheet_metal", 1 ], [ "sheet_metal_small", 2 ] ], [ [ "scrap", 4 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "sheet_metal", 1 ], [ "sheet_metal_small", 2 ] ], [ [ "scrap", 5 ] ] ]
   },
   {
     "result": "surv_9mm_mag",
@@ -718,7 +717,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
       [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
     ],
-    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
     "result": "surv_45_mag",
@@ -741,7 +740,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
       [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
     ],
-    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
     "result": "surv_22_mag",
@@ -764,7 +763,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
       [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
     ],
-    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
     "result": "surv_belt_223",
@@ -1062,7 +1061,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "scrap", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_22",
@@ -1084,7 +1083,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_22", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_22", 1 ] ], [ [ "scrap", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_9mm",
@@ -1106,7 +1105,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_9mm", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_9mm", 1 ] ], [ [ "scrap", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_45",
@@ -1128,7 +1127,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_45", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_45", 1 ] ], [ [ "scrap", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_308",
@@ -1150,7 +1149,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "scrap", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_762",
@@ -1172,7 +1171,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "scrap", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_12",
@@ -1194,7 +1193,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_12", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_12", 1 ] ], [ [ "scrap", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_lmg_308",
@@ -1216,7 +1215,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "scrap", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_lmg_762",
@@ -1238,7 +1237,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "scrap", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_lmg_223",
@@ -1260,7 +1259,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "scrap", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "aux_flamer_diesel",
@@ -1332,7 +1331,7 @@
     ],
     "using": [ [ "forging_standard", 4 ], [ "steel_standard", 3 ] ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 120 ], [ "large_repairkit", 120 ] ] ],
-    "components": [ [ [ "2x4", 2 ] ], [ [ "pipe", 2 ] ], [ [ "spring", 2 ] ], [ [ "pilot_light", 1 ] ] ]
+    "components": [ [ [ "2x4", 2 ] ], [ [ "pipe", 2 ] ], [ [ "scrap", 2 ] ], [ [ "pilot_light", 1 ] ] ]
   },
   {
     "result": "surv_laser_sight",

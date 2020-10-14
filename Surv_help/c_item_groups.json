@@ -152,7 +152,6 @@
       [ "surv_sniper", 2 ],
       [ "elc_bld", 2 ],
       [ "recipe_surv", 2 ],
-      [ "manual_surv_com", 1 ],
       [ "manual_biojutsu", 1 ]
     ]
   },
@@ -231,7 +230,6 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 1 ],
-      [ "manual_surv_com", 1 ],
       [ "manual_biojutsu", 1 ],
       { "group": "encylopedias_common", "prob": 1 }
     ]
@@ -241,7 +239,6 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 1 ],
-      [ "manual_surv_com", 1 ],
       [ "manual_biojutsu", 1 ],
       { "group": "encylopedias_common", "prob": 1 }
     ]
@@ -251,7 +248,6 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 2 ],
-      [ "manual_surv_com", 1 ],
       [ "manual_biojutsu", 1 ],
       { "group": "encylopedias_common", "prob": 5 }
     ]
@@ -261,7 +257,6 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 1 ],
-      [ "manual_surv_com", 1 ],
       [ "manual_biojutsu", 1 ],
       { "group": "encylopedias_common", "prob": 1 },
       [ "biomap", 1 ]
@@ -272,7 +267,6 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 2 ],
-      [ "manual_surv_com", 1 ],
       [ "manual_biojutsu", 1 ],
       { "group": "encylopedias_common", "prob": 1 }
     ]
@@ -358,7 +352,7 @@
   {
     "id": "traveler",
     "type": "item_group",
-    "items": [ [ "biomap", 1 ], [ "dress_skirt", 75 ], [ "microskirt", 10 ], [ "fancy_bra", 30 ], [ "thong", 30 ] ]
+    "items": [ [ "biomap", 1 ], [ "dress_skirt", 75 ], [ "microskirt", 10 ], [ "miniskirt", 25 ], [ "fancy_bra", 30 ], [ "thong", 30 ] ]
   },
   {
     "id": "bionics",
@@ -401,27 +395,27 @@
   {
     "id": "female_underwear_top",
     "type": "item_group",
-    "items": [ [ "bra", 90 ], [ "fancy_bra", 90 ] ]
+    "items": [ [ "bra", 90 ], [ "fancy_bra", 40 ] ]
   },
   {
     "id": "female_underwear_bottom",
     "type": "item_group",
-    "items": [ [ "panties", 70 ], [ "boy_shorts", 50 ], [ "thong", 70 ] ]
+    "items": [ [ "panties", 70 ], [ "boy_shorts", 50 ], [ "thong", 25 ] ]
   },
   {
     "id": "allclothes",
     "type": "item_group",
-    "items": [ [ "dress_skirt", 75 ], [ "microskirt", 10 ], [ "fancy_bra", 30 ], [ "thong", 30 ] ]
+    "items": [ [ "dress_skirt", 75 ], [ "microskirt", 10 ], [ "miniskirt", 25 ], [ "fancy_bra", 30 ], [ "thong", 30 ] ]
   },
   {
     "id": "pawn",
     "type": "item_group",
-    "items": [ [ "dress_skirt", 75 ], [ "microskirt", 10 ] ]
+    "items": [ [ "dress_skirt", 75 ], [ "miniskirt", 25 ], [ "microskirt", 10 ] ]
   },
   {
     "id": "pants",
     "type": "item_group",
-    "items": [ [ "dress_skirt", 75 ], [ "microskirt", 10 ] ]
+    "items": [ [ "dress_skirt", 75 ], [ "miniskirt", 25 ], [ "microskirt", 10 ] ]
   },
   {
     "id": "dead_slave_fighters",

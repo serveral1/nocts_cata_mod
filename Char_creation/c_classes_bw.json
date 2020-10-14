@@ -668,7 +668,7 @@
     "name": "Slave Fighter (Weapon Master)",
     "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists. You can pretty much weaponize a sock.",
     "points": 6,
-    "traits": [ "MARTIAL_ARTS_SURV_COM", "PROF_GLADIATOR" ],
+    "traits": [ "MARTIAL_ARTS2", "PROF_GLADIATOR" ],
     "CBMs": [
       "bio_razors",
       "bio_magnet",
