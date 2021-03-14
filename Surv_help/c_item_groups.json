@@ -395,12 +395,22 @@
   {
     "id": "female_underwear_top",
     "type": "item_group",
-    "items": [ [ "bra", 90 ], [ "fancy_bra", 40 ] ]
+    "items": [ [ "fancy_bra", 40 ] ]
   },
   {
     "id": "female_underwear_bottom",
     "type": "item_group",
-    "items": [ [ "panties", 70 ], [ "boy_shorts", 50 ], [ "thong", 25 ] ]
+    "items": [ [ "thong", 25 ] ]
+  },
+    {
+    "id": "underwear_womens",
+    "type": "item_group",
+    "//": "womens underwear.",
+    "subtype": "distribution",
+    "items": [
+      { "item": "thong", "prob": 25 },
+	  { "item": "fancy_bra", "prob": 40 }
+    ]
   },
   {
     "id": "allclothes",
@@ -416,6 +426,33 @@
     "id": "pants",
     "type": "item_group",
     "items": [ [ "dress_skirt", 75 ], [ "miniskirt", 25 ], [ "microskirt", 10 ] ]
+  },
+  {
+    "id": "pants_womens",
+    "type": "item_group",
+    "//": "womens pants and leg coverings for domestic locations.",
+    "subtype": "distribution",
+    "items": [ { "item": "microskirt", "prob": 10 }, { "item": "dress_skirt", "prob": 50 }, { "item": "miniskirt", "prob": 20 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "pants_female",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "dress_skirt", "prob": 75 },
+      { "item": "miniskirt", "prob": 15 },
+      { "item": "microskirt", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "pants_summer_womens",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "dress_skirt", "prob": 5 },
+      { "item": "miniskirt", "prob": 4 },
+      { "item": "microskirt", "prob": 1 }
+    ]
   },
   {
     "id": "dead_slave_fighters",
