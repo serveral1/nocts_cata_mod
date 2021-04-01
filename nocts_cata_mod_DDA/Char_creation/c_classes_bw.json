@@ -137,7 +137,8 @@
     "id": "bio_weapon_a",
     "name": "Bio-Weapon Alpha",
     "description": "'The Predator'.  You were the first, the Alpha.  Created to sow chaos behind enemy lines, driven by hunger.  You awoke into the unknown with an appetite - good thing the world is full of prey to devour!",
-    "points": 8,
+    "points": 10,
+    "proficiencies": [ "prof_spotting" ],
     "traits": [
       "SMELLY",
       "PAINREC1",
@@ -191,7 +192,8 @@
     "id": "bio_weapon_d",
     "name": "Bio-Weapon Delta",
     "description": "'The Infiltrator', created to infiltrate, scout, spy and assassinate.  Capable of taking down enemies from afar, exploring enemy territory and integrating into the local populace.  You awoke to chaos, and you plan to eliminate whoever caused it.",
-    "points": 8,
+    "points": 10,
+    "proficiencies": [ "prof_spotting", "prof_lockpicking_expert", "prof_traps", "prof_disarming", "prof_knitting", "prof_weaving", "prof_plumbing", "prof_glassblowing", "prof_metalworking", "prof_welding", "prof_blacksmithing", "prof_toolsmithing", "prof_gunsmithing_basic" ],
     "traits": [
       "PSYCHOPATH",
       "NIGHTVISION",
@@ -254,7 +256,8 @@
     "id": "bio_weapon_b",
     "name": "Bio-Weapon Beta",
     "description": "'The Immortal', designed to be a one-man army.  Your body is a lethal weapon, finely tuned arms and defenses ready to destroy anything standing in your way.  You awoke to a horde of enemies, so now you take them all on.",
-    "points": 8,
+    "points": 10,
+    "proficiencies": [ "prof_spotting", "prof_gunsmithing_basic" ],
     "traits": [
       "PSYCHOPATH",
       "NIGHTVISION",
@@ -321,7 +324,8 @@
     "id": "bio_weapon_g",
     "name": "Bio-Weapon Gamma",
     "description": "'The Mechanic', created to sabotage, destroy, assimilate or repair bio-technology.  You are a walking, adaptive repair machine.  You awoke to the sounds of machines fighting abominations.  You could help them, or destroy them, if they get in your way.",
-    "points": 8,
+    "points": 10,
+    "proficiencies": [ "prof_spotting", "prof_elec_soldering", "prof_electromagnetics", "prof_shock_weapons", "prof_aircraft_mechanic", "prof_metallurgy" ],
     "traits": [ "PROF_MED", "LOVES_BOOKS", "GOODMEMORY", "FASTLEARNER", "BIO_WEAPON_GAMMA", "SENTINEL_PERK_INT" ],
     "skills": [
       { "level": 5, "name": "firstaid" },
@@ -361,6 +365,7 @@
     "name": "Super Soldier",
     "description": "The infantry of the Super Soldier project.  You are one of many augmented soldiers to be deployed into a battle field to ensure victory.  With range and melee capabilities, you engage enemies en masse.",
     "points": 12,
+    "proficiencies": [ "prof_spotting", "prof_gunsmithing_basic", "prof_shock_weapons" ],
     "CBMs": [
       "bio_adrenaline",
       "bio_blade",
@@ -417,6 +422,7 @@
     "name": "Super Scout",
     "description": "The sniper of the Super Soldier project.  You are one of a few augmented soldiers to be used for reconnaissance and V.I.P assassinations.  With your weapons and skills, you can eliminate key targets after living for weeks in enemy territory.",
     "points": 12,
+    "proficiencies": [ "prof_spotting", "prof_gunsmithing_basic", "prof_shock_weapons", "prof_trapsetting", "prof_disarming", "prof_traps" ],
     "CBMs": [
       "bio_climate",
       "bio_evap",
@@ -486,6 +492,7 @@
     "name": "Super Bio-engineer",
     "description": "Biological and mechanical repair unit, the combat engineer of the Super Soldier project.  You are one of many augmented military mechanics to be used as a repair module.  With repair, medical and general electronic capabilities, you can maybe fix the world.",
     "points": 12,
+    "proficiencies": [ "prof_spotting", "prof_elec_soldering", "prof_electromagnetics", "prof_shock_weapons", "prof_aircraft_mechanic", "prof_metallurgy" ],
     "CBMs": [
       "bio_batteries",
       "bio_emp_armgun",
@@ -548,6 +555,7 @@
     "name": "Super Juggernaut",
     "description": "The tank of the Super Soldier project.  You are one of a few augmented soldiers to be used as a heavy support to infantry.  With ranged, armor and regenerative capabilities, you can endure heavy damage and return it in kind.",
     "points": 12,
+    "proficiencies": [ "prof_spotting", "prof_gunsmithing_basic", "prof_shock_weapons" ],
     "CBMs": [
       "bio_armor_eyes",
       "bio_armor_head",
@@ -658,6 +666,7 @@
     "name": "Slave Fighter (Shocker)",
     "description": "You were augmented with electrical generators and protection from them. You hit multiple foes with electricity, frying them until their nervous system gives up.",
     "points": 6,
+    "proficiencies": [ "prof_shock_weapons" ],
     "CBMs": [
       "bio_chain_lightning",
       "bio_targeting",

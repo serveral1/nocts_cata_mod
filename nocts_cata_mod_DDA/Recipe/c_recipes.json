@@ -7,6 +7,7 @@
     "skill_used": "electronics",
     "difficulty": 2,
     "time": "30 m",
+    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
     "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
     "components": [ [ [ "flashlight", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
@@ -43,6 +44,7 @@
     "skill_used": "electronics",
     "difficulty": 2,
     "time": "15 m",
+    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
     "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
     "components": [ [ [ "crude_firestarter", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
@@ -156,6 +158,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 2 ], [ "forging_standard", 8 ] ],
     "tools": [ [ [ "primitive_hammer", -1 ], [ "makeshift_hammer", -1 ] ] ]
@@ -171,6 +174,7 @@
     "skills_required": [ [ "survival", 1 ] ],
     "time": "100 m",
     "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "recipe_surv", 5 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 10 ], [ "forging_standard", 40 ] ],
     "tools": [ [ [ "primitive_axe", -1 ], [ "copper_ax", -1 ] ] ]
@@ -186,6 +190,7 @@
     "skills_required": [ [ "survival", 1 ] ],
     "time": "30 m",
     "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 1 ], [ "forging_standard", 4 ] ],
     "tools": [ [ [ "primitive_knife", -1 ], [ "makeshift_knife", -1 ], [ "copper_knife", -1 ] ] ]
@@ -201,6 +206,7 @@
     "skills_required": [ [ "survival", 1 ] ],
     "time": "140 m",
     "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 8 ], [ "forging_standard", 35 ] ],
     "tools": [ [ [ "primitive_shovel", -1 ] ] ]
@@ -217,6 +223,7 @@
     "time": "30 m",
     "reversible": false,
     "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 2 ], [ "forging_standard", 8 ] ],
     "tools": [ [ [ "pot_makeshift", -1 ], [ "pot_makeshift_copper", -1 ] ] ]
@@ -274,6 +281,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_rifle", 8 ], [ "textbook_anarch", 6 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -303,6 +311,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -331,6 +340,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -359,6 +369,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -387,6 +398,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -415,6 +427,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -443,6 +456,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -467,6 +481,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -491,6 +506,7 @@
     "reversible": false,
     "decomp_learn": 5,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -530,6 +546,7 @@
     "skills_required": [ "fabrication", 7 ],
     "time": "500 m",
     "reversible": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_welding_basic", "prof_polymerworking", "prof_leatherworking_basic" } ],
     "book_learn": [ [ "recipe_surv", 7 ] ],
     "using": [ [ "sewing_standard", 100 ] ],
     "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
@@ -558,6 +575,7 @@
     "skills_required": [ "fabrication", 8 ],
     "time": "500 m",
     "reversible": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_welding_basic", "prof_polymerworking", "prof_leatherworking_basic" } ],
     "book_learn": [ [ "recipe_surv", 8 ] ],
     "using": [ [ "sewing_standard", 100 ], [ "steel_tiny", 8 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
@@ -585,6 +603,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -608,6 +627,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -631,6 +651,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -654,6 +675,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -677,6 +699,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_shotgun", 5 ], [ "mag_shotgun", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -700,6 +723,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -723,6 +747,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -746,6 +771,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -768,6 +794,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
@@ -788,6 +815,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
@@ -808,6 +836,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
@@ -828,6 +857,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
@@ -851,6 +881,7 @@
     "time": "20 m",
     "reversible": false,
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_plasticworking" } ],
     "book_learn": [ [ "recipe_surv", 2 ] ],
     "tools": [ [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "fire", -1 ] ], [ [ "mold_plastic", -1 ] ] ],
     "components": [ [ [ "plastic_chunk", 1 ] ] ]
@@ -867,6 +898,7 @@
     "time": "190 m",
     "decomp_learn": 2,
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 6 ], [ "textbook_mechanics", 7 ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
@@ -892,6 +924,7 @@
     "reversible": false,
     "decomp_learn": 2,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv", "prof_elec_soldering" } ],
     "book_learn": [ [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ], [ "manual_electronics", 6 ], [ "recipe_surv", 5 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "tools": [ [ [ "welder", 30 ], [ "welder_crude", 60 ], [ "soldering_iron", 60 ], [ "toolset", 60 ] ] ],
@@ -916,6 +949,7 @@
     "difficulty": 9,
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 5 ], [ "mechanics", 4 ] ],
     "time": "55 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv", "prof_elec_soldering" } ],
     "book_learn": [ [ "advanced_electronics", 8 ], [ "textbook_electronics", 8 ], [ "manual_electronics", 8 ], [ "recipe_surv", 7 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -944,6 +978,7 @@
     "difficulty": 8,
     "skills_required": [ [ "gun", 2 ], [ "fabrication", 4 ], [ "mechanics", 3 ] ],
     "time": "25 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv", "prof_elec_soldering" } ],
     "book_learn": [ [ "advanced_electronics", 7 ], [ "textbook_electronics", 7 ], [ "manual_electronics", 7 ], [ "recipe_surv", 6 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 2 } ],
     "tools": [ [ [ "welder", 10 ], [ "welder_crude", 10 ], [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
@@ -968,6 +1003,7 @@
     "reversible": false,
     "decomp_learn": 2,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv", "prof_elec_soldering" } ],
     "book_learn": [ [ "advanced_electronics", 3 ], [ "textbook_electronics", 3 ], [ "manual_electronics", 3 ], [ "recipe_surv", 2 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 2 } ],
     "tools": [ [ [ "soldering_iron", 30 ], [ "toolset", 5 ] ] ],
@@ -992,6 +1028,7 @@
     "reversible": false,
     "decomp_learn": 2,
     "autolearn": false,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv", "prof_elec_soldering" } ],
     "book_learn": [ [ "advanced_electronics", 4 ], [ "textbook_electronics", 4 ], [ "manual_electronics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 2 } ],
     "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
@@ -1015,7 +1052,7 @@
     "time": "35 m",
     "reversible": true,
     "decomp_learn": 1,
-    "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],	
     "book_learn": [ [ "recipe_surv", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SCREW", "level": 1 } ],
     "using": [ [ "soldering_standard", 10 ] ],
@@ -1045,6 +1082,7 @@
     "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": "40 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 6 ] ],
     "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
@@ -1067,6 +1105,7 @@
     "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 5 ] ],
     "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
@@ -1089,6 +1128,7 @@
     "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 5 ] ],
     "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
@@ -1111,6 +1151,7 @@
     "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 5 ] ],
     "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
@@ -1133,6 +1174,7 @@
     "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": "40 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 6 ] ],
     "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
@@ -1155,6 +1197,7 @@
     "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": "40 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 6 ] ],
     "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
@@ -1177,6 +1220,7 @@
     "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": "40 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 6 ] ],
     "using": [ [ "steel_tiny", 5 ], [ "welding_standard", 25 ] ],
     "qualities": [
@@ -1199,6 +1243,7 @@
     "difficulty": 8,
     "skills_required": [ [ "gun", 5 ] ],
     "time": "55 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 7 ] ],
     "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
@@ -1221,6 +1266,7 @@
     "difficulty": 8,
     "skills_required": [ [ "gun", 5 ] ],
     "time": "55 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 7 ] ],
     "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
@@ -1243,6 +1289,7 @@
     "difficulty": 8,
     "skills_required": [ [ "gun", 5 ] ],
     "time": "55 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 7 ] ],
     "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
@@ -1268,6 +1315,7 @@
     "reversible": true,
     "decomp_learn": 5,
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "book_icef", 4 ], [ "recipe_surv", 4 ] ],
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
     "components": [
@@ -1288,7 +1336,8 @@
     "skill_used": "fabrication",
     "difficulty": 6,
     "skills_required": [ [ "mechanics", 4 ], [ "archery", 2 ] ],
-    "time": "58 m",
+    "time": "6 h",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_bowyery" } ],
     "book_learn": [ [ "recipe_surv", 5 ], [ "recipe_bows", 6 ], [ "manual_archery", 7 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -1314,6 +1363,7 @@
     "skills_required": [ "rifle", 5 ],
     "difficulty": 9,
     "time": "240 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "qualities": [
       { "id": "ANVIL", "level": 3 },
@@ -1338,6 +1388,7 @@
     "time": "15 m",
     "reversible": false,
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv", "prof_elec_soldering" } ],
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_iron", 30 ], [ "toolset", 30 ] ] ],
@@ -1359,7 +1410,8 @@
     "skill_used": "fabrication",
     "difficulty": 3,
     "skills_required": [ "gun", 1 ],
-    "time": "1 m",
+    "time": "5 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "manual_rifle", 2 ], [ "manual_pistol", 2 ], [ "recipe_bullets", 2 ], [ "recipe_surv", 2 ] ],
     "charges": 1,
@@ -1377,6 +1429,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 4, "melee", 2 ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering", "prof_welding_basic" } ],
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [
@@ -1395,6 +1448,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 4, "melee", 2 ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering", "prof_welding_basic" } ],
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [
@@ -1413,6 +1467,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 4, "gun", 2 ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering", "prof_welding_basic" } ],
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ] ],
@@ -1434,6 +1489,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 4, "gun", 2 ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering", "prof_welding_basic" } ],
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ] ],
@@ -1548,6 +1604,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 4, "melee", 2 ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering", "prof_welding_basic" } ],
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [
@@ -1574,6 +1631,7 @@
     "difficulty": 8,
     "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "chemistry", 4 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
@@ -1602,6 +1660,7 @@
     "difficulty": 8,
     "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "chemistry", 4 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
@@ -1630,6 +1689,7 @@
     "difficulty": 8,
     "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "chemistry", 4 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
@@ -1658,6 +1718,7 @@
     "difficulty": 8,
     "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "chemistry", 4 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
@@ -1686,6 +1747,7 @@
     "difficulty": 8,
     "skills_required": [ [ "firstaid", 4 ], [ "chemistry", 4 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
@@ -1708,6 +1770,7 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "neo_laser_pistol", 1 ] ] ]
@@ -1722,6 +1785,7 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "akro_laser_smg", 1 ] ] ]
@@ -1736,6 +1800,7 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "arc_laser_rifle", 1 ] ] ]
@@ -1750,6 +1815,7 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "krx_laser_lmg", 1 ] ] ]
@@ -1764,6 +1830,7 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "mx_laser_sniper", 1 ] ] ]
@@ -1778,6 +1845,7 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "xarm_laser_shotgun", 1 ] ] ]
@@ -1792,6 +1860,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 6 ],
     "time": "4 h",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_welding_basic", "prof_polymerworking" } ],
     "autolearn": [ [ "tailor", 7 ], [ "fabrication", 7 ] ],
     "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
     "using": [ [ "sewing_standard", 150 ] ],
@@ -1815,6 +1884,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 4 ],
     "time": "45 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_welding_basic", "prof_polymerworking" } ],
     "autolearn": [ [ "tailor", 7 ], [ "fabrication", 5 ] ],
     "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
     "using": [ [ "sewing_standard", 10 ] ],
@@ -1839,6 +1909,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 4 ],
     "time": "1 h",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_welding_basic", "prof_polymerworking" } ],
     "autolearn": [ [ "tailor", 7 ], [ "fabrication", 5 ] ],
     "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
     "using": [ [ "sewing_standard", 40 ] ],
@@ -1860,6 +1931,7 @@
     "difficulty": 6,
     "skills_required": [ "fabrication", 4 ],
     "time": "2 h",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_welding_basic", "prof_polymerworking" } ],
     "autolearn": [ [ "tailor", 7 ], [ "fabrication", 5 ] ],
     "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
     "using": [ [ "sewing_standard", 60 ] ],
@@ -2086,6 +2158,7 @@
     "reversible": true,
     "decomp_learn": 5,
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "book_icef", 4 ], [ "recipe_surv", 4 ] ],
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
     "components": [
@@ -2110,6 +2183,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "55 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "welding_standard", 50 ] ],
     "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -2125,6 +2199,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_pistol", 6 ], [ "mag_pistol", 7 ] ],
     "using": [ [ "steel_tiny", 2 ] ],
     "qualities": [
@@ -2146,6 +2221,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_pistol", 6 ], [ "mag_pistol", 7 ] ],
     "using": [ [ "steel_tiny", 2 ] ],
     "qualities": [
@@ -2167,6 +2243,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "30 m",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_pistol", 6 ], [ "mag_pistol", 7 ] ],
     "using": [ [ "steel_tiny", 2 ] ],
     "qualities": [
@@ -2190,6 +2267,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "textbook_fabrication", 2 ], [ "recipe_surv", 2 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
     "tools": [ [ [ "rebar", -1 ], [ "pipe", -1 ] ] ]
@@ -2206,6 +2284,7 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
     "tools": [ [ [ "nail", -1 ] ] ]
@@ -2219,8 +2298,9 @@
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
     "difficulty": 3,
-    "time": "30 h",
+    "time": "8 h",
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ]
@@ -2260,6 +2340,7 @@
     "time": "120 m",
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 12 ], [ "forging_standard", 48 ] ],
     "tools": [ [ [ "makeshift_crowbar", -1 ] ] ]
@@ -2275,6 +2356,7 @@
     "difficulty": 4,
     "time": "20 m",
     "autolearn": true,
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
     "using": [ [ "soldering_standard", 5 ] ],
     "components": [
@@ -2293,6 +2375,7 @@
     "skills_required": [ "gun", 2 ],
     "difficulty": 9,
     "time": "1 h",
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_gunsmithing_improv" } ],
     "book_learn": [ [ "manual_shotgun", 4 ] ],
     "using": [ [ "soldering_standard", 5 ] ],
     "tools": [ [ [ "small_repairkit", 150 ], [ "large_repairkit", 150 ] ] ],
@@ -2332,6 +2415,7 @@
     "difficulty": 10,
     "time": "4 h",
     "batch_time_factors": [ 20, 5 ],
+    "proficiencies": [ { "proficiency": { "proficiency": "prof_elec_soldering" } ],
     "book_learn": [ [ "recipe_alpha", 10 ], [ "recipe_medicalmut", 10 ], [ "evil_invitation", 9 ] ],
     "using": [ [ "serum_production_standard", 75 ], [ "soldering_standard", 20 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],

@@ -441,8 +441,7 @@
     "symbol": "[",
     "color": "white",
     "covers": [ "leg_l", "leg_r" ],
-    "coverage": 10,
-    "warmth": 5,
+    "coverage": 5,
     "material_thickness": 1,
     "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ]
   },

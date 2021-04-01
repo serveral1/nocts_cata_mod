@@ -6,10 +6,10 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_failed_weapon", "freq": 4, "cost_multiplier": 80 },
-      { "monster": "mon_zombie_failed_weapon", "freq": 4, "cost_multiplier": 30 },
-      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 20, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_dormant_armed", "freq": 20, "cost_multiplier": 15 }
+      { "monster": "mon_failed_weapon", "freq": 2, "cost_multiplier": 80 },
+      { "monster": "mon_zombie_failed_weapon", "freq": 2, "cost_multiplier": 30 },
+      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 5, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_armed", "freq": 5, "cost_multiplier": 15 }
     ]
   },
   {
@@ -19,8 +19,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_failed_weapon", "freq": 20, "cost_multiplier": 20 },
-      { "monster": "mon_zombie_failed_weapon", "freq": 20, "cost_multiplier": 20 }
+      { "monster": "mon_failed_weapon", "freq": 2, "cost_multiplier": 20 },
+      { "monster": "mon_zombie_failed_weapon", "freq": 2, "cost_multiplier": 20 }
     ]
   },
   {
