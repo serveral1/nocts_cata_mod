@@ -104,13 +104,13 @@
       ],
       "place_npcs": [ { "class": "bff", "x": 11, "y": 13 } ],
       "place_monster": [
-        { "monster": "mon_zombie_necro", "x": 9, "y": 3 },
-        { "monster": "mon_zombie_necro", "x": 7, "y": 2 },
-        { "monster": "mon_zombie_brute_shocker", "x": 16, "y": 0 },
-        { "monster": "mon_zombie_brute_shocker", "x": 7, "y": 4 },
-        { "monster": "mon_zombie_brute_shocker", "x": 12, "y": 1 },
-        { "monster": "mon_zombie_corrosive", "x": 10, "y": 4 },
-        { "monster": "mon_zombie_corrosive", "x": 13, "y": 2 }
+        { "monster": "mon_zombie_brute", "x": 9, "y": 3 },
+        { "monster": "mon_zombie_tough", "x": 7, "y": 2 },
+        { "monster": "mon_zombie_tough", "x": 16, "y": 0 },
+        { "monster": "mon_zombie_static", "x": 7, "y": 4 },
+        { "monster": "mon_zombie_static", "x": 12, "y": 1 },
+        { "monster": "mon_zombie_acidic", "x": 10, "y": 4 },
+        { "monster": "mon_zombie_acidic", "x": 13, "y": 2 }
       ],
       "place_vehicles": [
         { "vehicle": "bicycle_dirt", "x": 5, "y": 5, "chance": 99, "status": -1, "rotation": 270 },

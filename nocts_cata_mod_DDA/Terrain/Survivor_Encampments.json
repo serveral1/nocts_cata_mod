@@ -530,11 +530,11 @@
       "place_vehicles": [ { "vehicle": "bicycle_electric", "x": 13, "y": 18, "chance": 75, "fuel": 25, "status": -1, "rotation": 210 } ],
       "place_monster": [
         { "monster": "mon_zombie_scorched", "x": [ 3, 19 ], "y": [ 3, 19 ], "repeat": [ 3, 6 ] },
-        { "monster": "mon_zombie_fiend", "x": [ 3, 19 ], "y": [ 3, 19 ], "repeat": [ 1, 3 ] },
+        { "monster": "mon_zombie", "x": [ 3, 19 ], "y": [ 3, 19 ], "repeat": [ 1, 3 ] },
         { "monster": "mon_zombie_survivor", "x": [ 3, 19 ], "y": [ 3, 19 ], "repeat": 4 },
-        { "monster": "mon_zombie_necro", "x": [ 3, 19 ], "y": [ 3, 19 ], "repeat": 2 },
-        { "monster": "mon_zombie_bio_tool_pistol", "x": [ 3, 19 ], "y": [ 3, 19 ] },
-        { "monster": "mon_zombie_electric", "x": [ 3, 19 ], "y": [ 3, 19 ] }
+        { "monster": "mon_zombie_fiend", "x": [ 3, 19 ], "y": [ 3, 19 ], "repeat": 2 },
+        { "monster": "mon_zombie_tough", "x": [ 3, 19 ], "y": [ 3, 19 ] },
+        { "monster": "mon_zombie_static", "x": [ 3, 19 ], "y": [ 3, 19 ] }
       ]
     }
   },
