@@ -443,7 +443,7 @@
     "covers": [ "leg_l", "leg_r" ],
     "coverage": 5,
     "material_thickness": 1,
-    "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ]
+    "flags": [ "VARSIZE", "SKINTIGHT", "FANCY", "WATER_FRIENDLY" ]
   },
   {
     "id": "dress_skirt",
